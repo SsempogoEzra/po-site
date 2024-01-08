@@ -1,0 +1,23 @@
+.header{
+    background: #1f2937;
+    
+}
+
+.header .header-content .list{
+    display:flex;
+    /*border: 2px solid red;*/
+    list-style:none;
+    justify-content:flex-end;
+    gap:1rem;
+}
+
+/*.header .header-content .list li{
+    border:2px solid green;
+}*/
+
+#logo{
+    /*background-color: aqua;*/
+    margin-right: 20rem;
+    font-size: larger;
+    color: aqua;
+}
