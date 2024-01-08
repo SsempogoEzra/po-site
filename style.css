@@ -1,23 +1,36 @@
 .header{
-    background: #1f2937;
-    
+    background: #1f2937; 
 }
 
 .header .header-content .list{
     display:flex;
     /*border: 2px solid red;*/
     list-style:none;
-    justify-content:flex-end;
+    justify-content:space-around;
     gap:1rem;
+    margin-bottom:0px;
 }
 
 /*.header .header-content .list li{
     border:2px solid green;
 }*/
 
-#logo{
+.header .header-content #logo{
     /*background-color: aqua;*/
-    margin-right: 20rem;
+    align-self: flex-start;
     font-size: larger;
     color: aqua;
+}
+
+.hero{
+    background: #1f2937;
+    display:flex;
+}
+
+.hero-image img{
+    height: 180px;
+    width: 400px;
+}
+.hero .header-content{
+   color:whitesmoke;
 }
