@@ -27,8 +27,9 @@ body{
     align-items:center;
 }
 #logo {
-    margin-right:50%;
+    margin-right:35%;
     font-size:30px;
+    align-self: center;
 }
 
 .hero{
@@ -50,10 +51,11 @@ body{
 }
 .hero-image{
     border:2px solid red;
+    align-self: center;
 }
 .hero-image img{
-    max-width:400px;
-    height:300px;
+    width:100%;
+    height:50%;
 }
 
 
@@ -94,21 +96,41 @@ body{
 #name{
     margin-left:50%;
 }
-
-.footer .content{
-    display:flex;
+.footer{
+    display: flex;
     justify-content: center;
-    border:2px solid red;
-    gap:1rem;
-
 }
-.footer .content >*{
-    border-radius: 7px;
-    background-color:#3882F6;
-
+.footer .content{
+    border:2px solid green;
+    display: flex;
+    border-radius:7px;
+    justify-content: center;
+    background-color: #3882F6;
+    max-width: max-content;
+    
 }
+.footer .content div {
+    border:2px solid black;
+    color:white;
+    flex-grow:0;
+    flex-wrap: wrap;
+    
+}
+.footer .content .btn{
+    align-self: center;
+    flex-grow:0;
+}
+
 
 .button{
     color:white;
     background-color:#3882F6;
+    border-radius:4px;
+}
+
+#footer-button{
+    border:1px solid white;
+    height:2rem;
+    width:5rem;
+    /*work on the button click*/
 }
