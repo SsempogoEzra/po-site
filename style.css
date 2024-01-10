@@ -10,13 +10,12 @@ body{
     flex-direction: column;
     border:2px solid red;
     justify-content:center;
-    background-color:rgb(216, 200, 178);
     margin: 0;
     padding:0;
 }
 
 .header{
-    background-color: rgb(142, 152, 152);
+    background-color:#3882F6;
 }
 .list {
     display:flex;
@@ -35,7 +34,7 @@ body{
 .hero{
     border: 2px solid green;
     display:flex;
-    gap:2rem;
+    gap:1rem;
     justify-content: center;
 
 }
@@ -53,7 +52,7 @@ body{
     border:2px solid red;
 }
 .hero-image img{
-    width: 600px;
+    max-width:400px;
     height:300px;
 }
 
@@ -86,4 +85,30 @@ body{
     height:200px;
     border: 2px solid blue;
     border-radius:10px;
+}
+
+.text .text-content{
+    display:flex;
+    flex-direction:column;
+}
+#name{
+    margin-left:50%;
+}
+
+.footer .content{
+    display:flex;
+    justify-content: center;
+    border:2px solid red;
+    gap:1rem;
+
+}
+.footer .content >*{
+    border-radius: 7px;
+    background-color:#3882F6;
+
+}
+
+.button{
+    color:white;
+    background-color:#3882F6;
 }
