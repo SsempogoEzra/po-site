@@ -1,53 +1,65 @@
 body{
-    background:red;
     padding:0;
     margin:0;
-    background-color: white;
     text-align: center;
 }
 .container{
     display: flex;
     flex-direction: column;
     border:2px solid red;
-    justify-content:center;
-    margin: 0;
-    padding:0;
+    justify-content:center
+}
+.header{
+    display:flex;
+    /*border:2px solid blue;*/
+    justify-content:flex-start;
+    background-color: #1F2937;
 }
 
-.header{
-    background-color:#3882F6;
+.header >*{
+    /*border: 2px solid yellow;*/
+    flex:1;
+
+
 }
-.list {
-    display:flex;
+.header .list{
+    display: flex;
     list-style: none;
-    gap:2rem;
-    border: 2px solid red;
-    margin:20;
-    justify-content:center;
-    align-items:center;
+    gap:1rem;
+    justify-content: flex-end;
+    margin-right:2rem;
 }
+
 #logo {
-    margin-right:35%;
-    font-size:30px;
-    align-self: center;
+    max-height:6rem;
+    max-width:5rem;
+    border-radius:500px;
+    
 }
 
 .hero{
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     display:flex;
     gap:1rem;
     justify-content: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
 
 }
 .hero-content{
-    border:2px solid red;
+    /*border:2px solid red;*/
     max-width: 40%;
     height: fit-content;
     align-self: center;
     
 }
 .hero-content .button{
-    margin-right:80%;
+    margin-right:90%;
+    max-width:6rem;
+    /*border:2px solid red;*/
+}
+#hero-button{
+    width:4rem;
 }
 .hero-image{
     border:2px solid red;
@@ -92,6 +104,10 @@ body{
 .text .text-content{
     display:flex;
     flex-direction:column;
+    font-size:36px;
+    font:italic;
+    color:#1F2937;
+    background-color:#E5E7EB;
 }
 #name{
     margin-left:50%;
